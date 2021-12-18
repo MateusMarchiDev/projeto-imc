@@ -17,7 +17,6 @@ function calcular(){//SEMPRE BOTAR AS VARIÁVEIS QUE RECEBEM ELEMENTO HTML DENTR
     resultado.style.fontWeight='normal'
     let imc = peso/(altura**2)
     if (imc < 18.5){
-     resultado.innerHTML += 'Você está muito magro! ' + imc.toFixed(2)
      resultado.innerHTML = 'Você está muito magro! ' + imc.toFixed(2)
         }   else if(imc >=18.5 && imc <=24.9){
             resultado.innerHTML='Peso Normal ' + imc.toFixed(2)
